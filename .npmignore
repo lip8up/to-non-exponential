@@ -1,3 +1,4 @@
-README.md
-jest.config.json
-tests/
+jest.config.js
+/tests/
+tsconfig.json
+tslint.json
