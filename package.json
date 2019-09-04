@@ -1,6 +1,6 @@
 {
   "name": "to-non-exponential",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Convert an exponential number to a non exponential number, for example: 1e-8 => 0.00000001",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
