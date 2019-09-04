@@ -1,0 +1,23 @@
+{
+  "name": "to-non-exponential",
+  "version": "1.0.0",
+  "description": "Convert an exponential number to a non exponential number, for example: 1e-8 => 0.00000001",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "jest",
+    "prepublish": "yarn test && yarn build"
+  },
+  "repository": "git@github.com:lip2up/to-non-exponential.git",
+  "author": "lip2up <lip2up@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "tslib": "^1.10.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
+  }
+}
