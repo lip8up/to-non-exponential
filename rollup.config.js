@@ -13,7 +13,7 @@ export default {
     },
     {
       file: pkg.module,
-      format: 'esm',
+      format: 'es',
       // sourcemap: true
     }
   ],
